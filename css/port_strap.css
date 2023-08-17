@@ -1,0 +1,229 @@
+.f{
+    display:flex;
+    flex-direction:column;
+    /* background-color: #0077b5; */
+}
+
+.main-heading{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 23;
+    margin-left: 45px;
+    color: rgb(11, 50, 85);
+
+    
+}
+.pOne{
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(57, 67, 77);
+    padding-left: 45px;
+    padding-right:60%;
+    line-height: 36px;
+    
+}
+div1{
+    background-image: url(https://img.freepik.com/free-photo/confident-business-team-with-leader_1098-3228.jpg?w=740&t=st=1691859855~exp=1691860455~hmac=35a0492d9bd9e5fb5dcc16e0e18fbd49c21a4b47bf2dde99fd48ec0c214aada7);
+    background-repeat: no-repeat;
+    background-size:100%;
+    max-width: fit-content;
+    height:800px;
+
+
+}
+.link{
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(24, 24, 58);
+    padding-left: 45px;
+    padding-right:60%;
+    margin-top: -60px;
+    letter-spacing: 1;
+}
+.link:hover{
+    color: rgb(39, 15, 61);
+    font-size: 20px;
+}
+.card{
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    display:inline-block;
+    flex-direction:column;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 25px;
+}
+.card:hover{
+    transition:ease-in-out;
+    cursor: pointer;
+}
+.image-container{
+    width: 100%;
+    height: 340px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.personal-info{
+    padding: 24px 16px;
+}
+.profile-name{
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+.job-title{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: brown;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.description{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(250, 78, 78);
+}
+.social-link {
+    width: 100%;
+    display:flex;
+    height:0;
+    border-top:2px solid #cfcfcf;
+    border-bottom:2px solid #cfcfcf;
+    transition:height 0.1s ease-in-out;
+}
+.card:hover .social-link {
+    height: 65px;
+   
+}
+.social-link .instagram {
+    --color:#ee5487;
+}
+.social-link .Linkedin {
+    --color:#0077b5;
+}
+.social-link .twitter { 
+    --color:#1da1f2;
+}
+.social-link > a {
+    font-size: 20px;
+    padding-block: 20px;
+    color: var(--color);
+    flex:1;
+}
+.social-link > a:not(:last-child) {
+    border-right: 1px solid #cfcfcf;
+}
+.social-link > a:hover {
+    background-color: var(--color);
+}
+.social-link > a:hover > i {
+    color: rgb(241, 232, 232);
+}
+.bq1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    /* padding-block: 50px; */
+    text-align: center;
+    margin-right: 30%;
+    display: flex;
+    flex-direction: inherit;
+    padding-left: 25%;
+    color: rgb(11, 50, 85);
+    padding-bottom: 20px;
+    letter-spacing: 0.4px;
+    line-height: 2;
+}
+.sec-heading{
+    color: rgb(11, 50, 85);
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 50px;
+    font-display: inherit;
+    font-weight: 900;
+    text-align: center;
+    text-decoration-line: initial;
+    letter-spacing: 1px;
+}
+.link2{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    padding-left: 45%;
+    background-color: rgb(253, 253, 253);
+    background-size: contain;
+    color: rgb(34, 64, 90);
+    height: 50px;
+    }
+    .link3{
+        color: rgb(34, 64, 90);
+    }
+    .link3:hover{
+        color: rgb(87, 140, 185);
+        font-size: medium;
+    }
+    .f-container{
+        display: inline-flexbox;
+        flex-direction:column;
+        flex-wrap: wrap;
+        /* width: auto; */
+        background-color: rgb(80, 93, 104);
+    }
+    .bg-setting{
+        padding-left: 13%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        /* padding-right: 5%; */
+        /* margin-left: 5%; */
+        /* margin-right: 5%; */
+        transition-property:initial;
+        transition-duration: 1s;
+        -o-transition-duration: 0s;
+        /* transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1); */
+    }
+    .bg1{
+        border:12px solid rgb(64, 93, 119);
+    }
+
+   .img{
+    padding-left: 37%;
+    padding-top: 6%;
+    display:flex;
+    flex-direction: column;
+    /* align-items: center; */
+    
+
+     }
+     .form{
+        display: flex;
+        flex-wrap: nowrap;
+        border: 2px solid black;
+        background-color: rgb(202, 188, 168);
+        padding-left: 5%;
+        width: 45%;
+        margin-left: 45%;
+        margin-top: -34%;
+        
+     }
+     .address{
+        display:inline-block;
+        flex-direction: inherit;
+        flex-direction: column;
+        word-break:keep-all;
+     }
